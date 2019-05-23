@@ -1,0 +1,43 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/d0b0531f-0552-4dc7-bdeb-4d807e9c7953/ # 
+title: StephensAPI
+version: 1.0.0
+protocols: 
+  - HTTPS
+  - HTTP
+mediaType: application/json
+types: 
+  Xref:
+    type: object
+    properties:
+      recordType:
+        type: string
+        required: true
+      conversionType:
+        type: string
+        required: true
+      conversionKey: 
+        type: string
+        required: true
+      fromStd:
+        type: boolean
+        required: true
+/Xref: 
+  description: Translate one field of data at a time.
+  post:
+    body:
+      application/json:
+        type: Xref
+    responses:
+      200:
+        description: Successfully processed the request
+        body:
+          application/json:
+            type: object
+            properties:
+               description:
+                 type: string
+                 example: "Foundit"
+               errorMsg:
+                  type: string
+                  example: "Success"
