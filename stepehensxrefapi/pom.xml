@@ -26,6 +26,20 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+					<uri>https://anypoint.mukesoft.com</uri>
+					<muleVersion>${app.runtime}</muleVersion>
+					<username>MuleSoftNamSupportL2</username>
+					<password>FlorenceYall1</password>
+					<applicationName>stephensxrefapi</applicationName>
+					<environment>Dev</environment>
+					<workerType>MICRO</workerType>
+					<properties>
+						<http.port>8081</http.port>
+					
+					</properties>
+					
+				</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		<plugin>
