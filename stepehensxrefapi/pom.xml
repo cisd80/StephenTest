@@ -30,8 +30,8 @@
 					<uri>https://anypoint.mulesoft.com</uri>
 					<muleVersion>${app.runtime}</muleVersion>
 					<businessGroup>Schneider Electric\North America\Sales</businessGroup>
-					<username>MuleSoftNamSupportL2</username>
-					<password>FlorenceYall1</password>
+					<username>sesa10856</username>
+					<password>C@05202019ts</password>
 					<applicationName>stephensxrefapi</applicationName>
 					<environment>Dev</environment>
 					<workerType>MICRO</workerType>
