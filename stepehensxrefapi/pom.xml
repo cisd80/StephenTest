@@ -27,7 +27,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-					<uri>https://anypoint.mulesoft.com</uri>
+					<uri>https://anypoint.mulesoft.com/accounts/login/schneider-electric-74</uri>
 					<muleVersion>${app.runtime}</muleVersion>
 					<businessGroup>Schneider Electric\North America\Sales</businessGroup>
 					<username>sesa10856</username>
