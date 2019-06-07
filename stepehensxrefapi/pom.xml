@@ -35,7 +35,7 @@
 					<password>FlorenceYall1</password>
 					<applicationName>stephensxrefapi</applicationName>
 					<region>us-east-2 - US East (Ohio)</region>
-					<environment>Dev</environment>
+					<environment>DEV</environment>
 					<workerType>MICRO</workerType>
 					<properties>
 						<http.port>8081</http.port>
