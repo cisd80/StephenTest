@@ -31,7 +31,7 @@
 					<cloudHubDeployment>
 					   <uri>https://anypoint.mulesoft.com</uri>
 					   <muleVersion>${app.runtime}</muleVersion>
-					   <businessGroup>Schneider Electric\North America\Sales</businessGroup>
+					   <businessGroup>Sales</businessGroup>
 					   <username>${anypoint.username}</username>
 					   <password>${anypoint.password}</password>
 					   <applicationName>stephensxrefapi</applicationName>
