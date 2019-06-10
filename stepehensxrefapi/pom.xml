@@ -21,27 +21,25 @@
   
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-maven-plugin</artifactId>
-				<version>${mule.maven.plugin.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-	                <classifier>mule-application</classifier>
-					<cloudHubDeployment>
-					   <uri>https://anypoint.mulesoft.com</uri>
-					   <muleVersion>${app.runtime}</muleVersion>
-					   <businessGroup>${busgrp}</businessGroup>
-					   <username>${anypoint.username}</username>
-					   <password>${anypoint.password}</password>
-					   <applicationName>stephensxrefapi</applicationName>
-					   <environment>${environment}</environment>
-				
-					
-				   </cloudHubDeployment>
-				</configuration>
+            <plugin>
+                <groupId>org.mule.tools.maven</groupId>
+                <artifactId>mule-maven-plugin</artifactId>
+                <version>${mule.maven.plugin.version}</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <classifier>mule-application</classifier>
+                    <cloudHubDeployment>
+                        <uri>https://anypoint.mulesoft.com</uri>
+                        <muleVersion>4.1.5</muleVersion>
+                        <businessGroup>Schneider Electric\North America\Sales</businessGroup>
+                        <username>${anypoint.username}</username>
+                        <password>${anypoint.password}</password>                      
+                        <applicationName>stephensxrefapi</applicationName>
+                        <environment>DEV</environment>
+                    </cloudHubDeployment>
+                </configuration>
+            </plugin>
 
-			</plugin>
 		<plugin>
                 <groupId>com.mulesoft.munit.tools</groupId>
                 <artifactId>munit-maven-plugin</artifactId>
