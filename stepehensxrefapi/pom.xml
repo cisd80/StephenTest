@@ -36,7 +36,7 @@
 					<password>${anypoint.password}</password>
 					<applicationName>stephensxrefapi</applicationName>
 					<environment>DEV</environment>
-					<workerType>MICRO</workerType>
+					<workerType>Micro</workerType>
 
 					
 				</cloudHubDeployment>
