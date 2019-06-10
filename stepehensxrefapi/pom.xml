@@ -35,7 +35,6 @@
 					<username>${anypoint.username}</username>
 					<password>${anypoint.password}</password>
 					<applicationName>stephensxrefapi</applicationName>
-					<region>us-east-2 - US East (Ohio)</region>
 					<environment>DEV</environment>
 					<workerType>MICRO</workerType>
 
