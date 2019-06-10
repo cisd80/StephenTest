@@ -31,8 +31,8 @@
 					<uri>https://anypoint.mulesoft.com</uri>
 					<muleVersion>${app.runtime}</muleVersion>
 					<businessGroup>Schneider Electric\North America\Sales</businessGroup>
-					<username>MuleSoftNamSupportL2</username>
-					<password>FlorenceYall1</password>
+					<username>${anypoint.username}</username>
+					<password>${anypoint.password}</password>
 					<applicationName>stephensxrefapi</applicationName>
 					<region>us-east-2 - US East (Ohio)</region>
 					<environment>DEV</environment>
@@ -44,15 +44,7 @@
 					
 				</cloudHubDeployment>
 				</configuration>
-				  <executions>
-				    <execution>
-				      <id>deploy</id>
-				      <phase>deploy</phase>
-				      <goals>
-				         <goal>deploy</goal>
-				      </goals>
-				   </execution>
-			      </executions>
+
 			</plugin>
 		<plugin>
                 <groupId>com.mulesoft.munit.tools</groupId>
