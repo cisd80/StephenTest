@@ -37,6 +37,9 @@
 					<applicationName>stephensxrefapi</applicationName>
 					<environment>DEV</environment>
 					<workerType>Micro</workerType>
+						<properties> 
+                   			<secret.key>${secret.key}</secret.key> 
+                  		</properties> 
 
 					
 				</cloudHubDeployment>
