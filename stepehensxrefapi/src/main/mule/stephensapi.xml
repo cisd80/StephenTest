@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/
 		</http:request-connection>
 	</http:request-config>
 	<wsc:config name="Web_Service_Consumer_Config" doc:name="Web Service Consumer Config" doc:id="502d9200-a835-4064-af2c-86f7d0892643" >
-		<wsc:connection wsdlLocation="SchneiderXrefService.XrefService.wsdl" port="BasicHttpBinding_IXrefService" address="https://nam-webservices-qa.us.schneider-electric.com/MESAppl/QA/SchneiderXrefServices/SchneiderXref/SchneiderXrefService.XrefService.svc" service="XrefService">
+		<wsc:connection wsdlLocation="SchneiderXrefService.XrefService.wsdl" port="BasicHttpBinding_IXrefService" address="https://nam-webservices-qa.us.schneider-electric.com/MESAppl/QA/SchneiderXrefServices/SchneiderXref/SchneiderXrefService.XrefService.svc" service="XrefService" soapVersion="SOAP12">
 		</wsc:connection>
 	</wsc:config>
 	<flow name="stephensapi-main">
