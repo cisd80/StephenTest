@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/
     <http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="d8574251-7312-487c-a929-96c9366e605c" basePath="/MESAppl/QA/SchneiderXrefServices/SchneiderXref/SchneiderXrefService.XrefService.svc" >
 		<http:request-connection protocol="HTTPS" host="nam-webservices-qa.us.schneider-electric.com" >
 			<tls:context >
-				<tls:trust-store path="qa.JKS" password="manage" type="jks" />
+				<tls:trust-store path="/Trustor/qa.JKS" password="manage" type="jks" />
 			</tls:context>
 		</http:request-connection>
 	</http:request-config>
