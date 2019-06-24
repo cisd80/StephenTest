@@ -35,7 +35,7 @@
                         <username>${anypoint.username}</username>
                         <password>${anypoint.password}</password>                      
                         <applicationName>stephensxrefapi</applicationName>
-                        <environment>DEV</environment>
+                        <environment>${anypoint.env}</environment>
                     </cloudHubDeployment>
                 </configuration>
             </plugin>
